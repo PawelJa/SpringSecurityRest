@@ -1,4 +1,8 @@
 package pl.springsecurityrest.dao;
 
-public class IUserInfoDao {
+import pl.springsecurityrest.entity.UserInfo;
+
+public interface IUserInfoDao {
+
+    UserInfo getActiveUser(String userName);
 }
