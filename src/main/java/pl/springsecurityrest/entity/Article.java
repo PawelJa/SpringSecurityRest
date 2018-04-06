@@ -1,4 +1,4 @@
-package pl.springsecurity.entity;
+package pl.springsecurityrest.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
