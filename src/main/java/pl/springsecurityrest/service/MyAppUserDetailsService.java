@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.Arrays;
 
 @Service
-public class MyAppUserDetailService implements UserDetailsService {
+public class MyAppUserDetailsService implements UserDetailsService {
 
     @Autowired
     private IUserInfoDAO userInfoDAO;
